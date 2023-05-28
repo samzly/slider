@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
+
+/*  in the end  */
+
+/*    rename some*/
+
+                                                                                        /*general*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #131313;
+}
+body * {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1171px;
+    margin: auto;
+    position: relative;
+    padding: 107px 0 0;
+}
+.button {
+    background: #E3B873;
+    border: 0;
+    box-shadow: 0 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    padding: 0;
+    outline: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.subtitle {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+.projects {
+    height: 783px;
+    position: relative;
+}
+.projects-header {
+    padding: 0 22px;
+    width: 1171px;
+    display: flex;
+    justify-content: right;
+}
+.list_projects-header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 660px;
+}
+.title_slider {
+    text-decoration: none;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    /*margin-left: 60px;*/
+    padding-bottom: 6.7px;
+    cursor: pointer;
+}
+.title_slider.active {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    transition: 1s;
+}
+.paragraph_projects {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 442px;
+    margin: 34px 0 42px;
+}
+.title_projects {
+    color: #E3B873;
+    letter-spacing: -0.07em;
+    width: max-content;
+}
+.projects_current {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 482px;
+    margin-top: 53px;
+    align-content: space-between;
+    width: 1171px;
+}
+.img_projects .image {
+    width: 679px;
+    height: 482px;
+    position: absolute;
+    top: 176px;
+    left: 492px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.img_projects .image.active {
+    opacity: 1;
+}
+.paragraph {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.paragraph.active {
+    opacity: 1;
+}
+
+.projects-properties {
+    display: grid;
+    grid-template: repeat(2, 107px) / repeat(2, 210px);
+}
+.subtitle_projects-properties {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    text-align: left;
+}
+.paragraph_projects-properties {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 9px;
+}
+.arrows {
+    display: flex;
+    align-items: center;
+    width: 442px;
+    height: 14px;
+    margin-top: 14px;
+}
+.arrow {
+    cursor: pointer;
+}
+.arrow_dot {
+    height: 10px;
+    width: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.arrow_dot.active {
+    background: #FFFFFF;
+}
+.arrow_dots {
+    width: 107px;
+    display: flex;
+    margin-bottom: 3px;
+    justify-content: space-around;
+}
+.title__line {
+    position: relative;
+    top: -20px;
+    left: 161px;
+    width: 92px;
+    height: 1px;
+}
+                                                                                    /*keep
+                                                                                     at
+                                                                                     the end!*/
+
+
+.text_colored-sand {
+    color: #E3B873;
+}
