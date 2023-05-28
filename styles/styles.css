@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap');
 
-/*  in the end  */
-
-/*    rename some*/
-
-                                                                                        /*general*/
 
 body {
     margin: 0;
@@ -20,22 +15,6 @@ body * {
     margin: auto;
     position: relative;
     padding: 107px 0 0;
-}
-.button {
-    background: #E3B873;
-    border: 0;
-    box-shadow: 0 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    padding: 0;
-    outline: 0;
-    font-family: 'Nunito Sans', sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    line-height: 15px;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
 }
 .title {
     font-family: 'Yeseva One', cursive;
@@ -190,12 +169,4 @@ body * {
     left: 161px;
     width: 92px;
     height: 1px;
-}
-                                                                                    /*keep
-                                                                                     at
-                                                                                     the end!*/
-
-
-.text_colored-sand {
-    color: #E3B873;
 }
